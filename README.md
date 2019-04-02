@@ -7,7 +7,8 @@ Simply clone the repository with the command
 
 ## Getting Started
 To run the application go to the folder where *parser.jar* is located and run  
-```java -jar parser.jar pathToFile1 pathToFile2 order```  
+```java -jar parser.jar pathToFile1 pathToFile2 order```
+You can find example files in *src/main/resources folder*  
 The 3-rd parameter *order* is optional and used to sort the result by name or used memory  
 If you pass **0** no sorting will be applied, **1** for sorting by name and **2** is for sorting by memory  
 All other arguments passed will be ignored
